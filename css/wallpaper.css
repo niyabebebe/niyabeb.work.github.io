@@ -21,6 +21,11 @@ main {
 	background: rgb(255, 255, 255);
 	border-radius: 200px;
 }
+p{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 700;
+}
 .a{
 	display: inline-flex;
 	align-items: flex-end;
