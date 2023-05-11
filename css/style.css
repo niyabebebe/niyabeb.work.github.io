@@ -17,9 +17,18 @@ main {
 	position: relative;
 	margin: 20px 20px 20px 120px;
 	width: 140%;
-	height: 200px;
+	max-height: 200px;
+	height: 15vw;
 	background: rgb(255, 255, 255);
 	border-radius: 200px;
+}
+.logo{
+	position: absolute;
+	font-size: min(5vw,60px);
+	font-weight: 700;
+	top: 30px;
+	left: 360px;
+	flex-direction: column;
 }
 .a{
 	display: inline-flex;
@@ -30,10 +39,15 @@ main {
 	margin-left: 130px;
 	bottom: 210px;
 }
+.a .icon img{
+	width: min(180px,14vw);
+	margin-bottom: -9px;
+	margin-top: 7px;
+}
 .a .header {
 	position: relative;
 	display: inline-block;
-	font-size: 30px;
+	font-size: min(2.5vw,30px);
 	font-weight: 700;
 	top: -210px;
 	margin: 15px 20px;
