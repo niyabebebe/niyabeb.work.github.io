@@ -1,58 +1,67 @@
 @charset "utf-8";
-html,body {
-	font-size: 13px;	
+html,
+body {
+    font-size: 13px;
 }
-html{
-	background: rgb(240, 240, 240);
+
+html {
+    background: rgb(240, 240, 240);
 }
 
 main {
-	font-family: "ヒラギノ丸ゴ Pro";
-	-webkit-text-size-adjust: none;
-	color: #666;
-	line-height: 2;
-	overflow-x: hidden;
+    font-family: "ヒラギノ丸ゴ Pro";
+    -webkit-text-size-adjust: none;
+    color: #666;
+    line-height: 2;
+    overflow-x: hidden;
 }
-.bg{
-	position: relative;
-	margin: 20px 20px 20px 120px;
-	width: 140%;
-	max-height: 200px;
-	height: 15vw;
-	background: rgb(255, 255, 255);
-	border-radius: 200px;
+
+.bg {
+    position: relative;
+    margin: 20px 20px 20px 120px;
+    width: 140%;
+    max-height: 200px;
+    height: 15vw;
+    background: rgb(255, 255, 255);
+    border-radius: 200px;
 }
-.logo{
-	position: absolute;
-	font-size: min(5vw,60px);
-	font-weight: 700;
-	top: 30px;
-	left: 360px;
-	flex-direction: column;
+
+.logo {
+    position: absolute;
+    font-size: min(5vw, 60px);
+    font-weight: 700;
+    top: 30px;
+    left: 360px;
+    flex-direction: column;
 }
-.a{
-	display: inline-flex;
-	align-items: flex-end;
+
+.a {
+    display: inline-flex;
+    align-items: flex-end;
 }
+
 .a .icon {
-	position: relative;
-	margin-left: 130px;
-	bottom: 210px;
+    position: relative;
+    margin-left: 130px;
+    bottom: 210px;
 }
-.a .icon img{
-	width: min(180px,14vw);
-	margin-bottom: -9px;
-	margin-top: 7px;
+
+.a .icon img {
+    width: min(180px, 14vw);
+    margin-bottom: -9px;
+    margin-top: 7px;
 }
+
 .a .header {
-	position: relative;
-	display: inline-block;
-	font-size: min(2.5vw,30px);
-	font-weight: 700;
-	top: -210px;
-	margin: 15px 20px;
+    position: relative;
+    display: inline-block;
+    font-size: min(2.5vw, 30px);
+    font-weight: 700;
+    top: -210px;
+    margin: 15px 20px;
 }
-.a .header .bar{
+
+.a .header .bar {
     bottom: 0px;
     left: 50%;
     content: '';
@@ -60,64 +69,65 @@ main {
     height: 4px;
     background: rgb(196, 196, 196);
 }
-.a .header .a{
-	color: #3e3e3e;
-	text-decoration: none;
+
+.a .header .a {
+    color: #3e3e3e;
+    text-decoration: none;
 }
 
-
-.lists{  
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	position: relative;
-	background: rgb(240, 240, 240);
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    background: rgb(240, 240, 240);
 }
+
 .lists .list {
-	display: block;
-	position: relative;
-	width: 450px;
-	height: 200px;
-	margin: 20px;
-	left: 40px;
-	background: rgb(240, 240, 240);
-	border-radius: 20px;
-	box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 25px -5px;
+    display: block;
+    position: relative;
+    width: 450px;
+    height: 200px;
+    margin: 20px;
+    left: 40px;
+    background: rgb(240, 240, 240);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 25px -5px;
 }
 
 .lists .list img {
-	width: 79%;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	margin-left: 161px;
-	clip-path: inset(0px 65px round 0 25px 20px 0);
-	border-width: 0 0 200px 200px;
+    width: 79%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-left: 161px;
+    clip-path: inset(0px 65px round 0 25px 20px 0);
+    border-width: 0 0 200px 200px;
 }
 
-.lists .list .cover{
-	position: absolute;
-	left: 70px;
-	width: 200px;
-	height: 200px;
-	background: rgb(240, 240, 240);
-	clip-path: polygon(-40% 0, 100% 0%, 75% 120%, -40% 100%);
-	z-index: 1;
-	top: 0px;
+.lists .list .cover {
+    position: absolute;
+    left: 70px;
+    width: 200px;
+    height: 200px;
+    background: rgb(240, 240, 240);
+    clip-path: polygon(-40% 0, 100% 0%, 75% 120%, -40% 100%);
+    z-index: 1;
+    top: 0px;
 }
 
-.lists .list .text h4{
-	flex: 1;
-	flex-direction: column;
-	font-size: 20px;
-	margin: 10px 0 0 -50px;
+.lists .list .text h4 {
+    flex: 1;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 10px 0 0 -50px;
 }
 
-.lists .list .text p{
-	flex: 1;
-	flex-direction: column;
-	font-size: 18px;
-	margin: 5px 0 0 -50px;
+.lists .list .text p {
+    flex: 1;
+    flex-direction: column;
+    font-size: 18px;
+    margin: 5px 0 0 -50px;
 }
 
 .lists .list .text .btn {
@@ -130,10 +140,11 @@ main {
     color: #313131;
     transition: 0.3s ease-in-out;
     font-weight: 600;
-	left: -50px;
+    left: -50px;
     position: absolute;
     bottom: 10px;
 }
+
 .lists .list .text .btn:before {
     position: absolute;
     bottom: 0px;
@@ -141,9 +152,10 @@ main {
     content: '';
     width: 100%;
     height: 2px;
-    background: rgba(0,0,0,.1);
+    background: rgba(0, 0, 0, .1);
     transform: translateX(-50%);
 }
+
 .lists .list .text .btn:after {
     position: absolute;
     bottom: 0px;
@@ -156,13 +168,16 @@ main {
     transform-origin: left top;
     transition: transform .3s;
 }
+
 .lists .list .text .btn:hover {
     opacity: 0.7;
 }
+
 .lists .list .text .btn:hover:after {
     transform: scale(1, 1);
 }
-.lists .list .text .btn a{
-	text-decoration: none;
-	color:rgb(100, 100, 100);
+
+.lists .list .text .btn a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
 }

@@ -1,0 +1,56 @@
+.contact-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #f2f2f2;
+    }
+    
+    /* ラベルのスタイル */
+    .contact-form label {
+        display: block;
+        margin-bottom: 10px;
+        color: #666666;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .contact-form input[type="text"],
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #999999;
+        background-color: transparent;
+        color: #666666;
+        font-size: 14px;
+    }
+    
+    /* 入力フィールドのフォーカス時のスタイル */
+    .contact-form input[type="text"]:focus,
+    .contact-form textarea:focus {
+        outline: none;
+        border-bottom-color: #ff9900;
+    }
+    
+    /* 送信ボタンのスタイル */
+    .contact-form input[type="submit"] {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 10px;
+        background-color: #ff9900;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    /* ラインのスタイル */
+    .contact-form::after {
+        content: "";
+        display: block;
+        margin-top: 20px;
+        border-bottom: 1px solid #999999;
+    }
